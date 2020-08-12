@@ -1,0 +1,78 @@
+<pre>(base) <font color="#4E9A06"><b>mani@master-node</b></font>:<font color="#3465A4"><b>~/Documents/Refactored,AI/load_test</b></font>$ k6 run --vus 400 --duration 60s refactored.js 
+
+    <font color="#06989A">          /\      |‾‾|  /‾‾/  /‾/   </font>
+    <font color="#06989A">     /\  /  \     |  |_/  /  / /    </font>
+    <font color="#06989A">    /  \/    \    |      |  /  ‾‾\  </font>
+    <font color="#06989A">   /          \   |  |‾\  \ | (_) | </font>
+    <font color="#06989A">  / __________ \  |__|  \__\ \___/ .io</font>
+    
+      execution: <font color="#06989A">local</font>
+         script: <font color="#06989A">refactored.js</font>
+         output: <font color="#06989A">-</font>
+    
+      scenarios: <font color="#06989A">(100.00%) 1 executors, 400 max VUs, 1m30s max duration (incl. graceful stop):</font>
+               * default: 400 looping VUs for 1m0s (gracefulStop: 30s)
+    
+    
+    running (1m30.1s), 000/400 VUs, 457 complete and 189 interrupted iterations
+    default <font color="#4E9A06">✓</font> [======================================] 400 VUs  1m0s
+    
+    
+        █ v1 Refactored load testing
+    
+          █ heart-beat
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    
+          █ course aws deep racer - Home 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ AWS Deepracer Home .. done</font>
+    
+          █ course aws deep racer Pre-Workshop-  Create your AWS account 
+    
+    <font color="#4E9A06">        ✓ Create AWS account.. done</font>
+    <font color="#4E9A06">        ✓ status is 200</font>
+    
+          █ course aws deep racer Pre-Workshop -  Introduction to Autonomous Vehicle 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ Introduction to Autonomous Vehicle.. done</font>
+    
+          █ course aws deep racer Pre-Workshop -  Introduction to Machine learning 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ Introduction to Machine learning.. done</font>
+    
+          █ course aws deep racer Workshop-  Basics of Reinforcement Learning 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ Basics of Reinforcement Learning.. done</font>
+    
+          █ course aws deep racer Workshop-  AWS Deepracer Model Initilization 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ AWS Deepracer Model Initilization.. done</font>
+    
+          █ course aws deep racer post-workshop -  Reward Function 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ Reward Function.. done</font>
+    
+        checks.....................: <font color="#06989A">100.00%</font> <font color="#046567">✓ 8768</font>  <font color="#046567">✗ 0</font>    
+        data_received..............: <font color="#06989A">113 MB</font>  <font color="#046567">1.3 MB/s</font>
+        data_sent..................: <font color="#06989A">1.4 MB</font>  <font color="#046567">15 kB/s</font>
+        group_duration.............: avg=<font color="#06989A">10.65s</font>   min=<font color="#06989A">288.83ms</font> med=<font color="#06989A">6.75s</font>   max=<font color="#06989A">1m27s</font>    p(90)=<font color="#06989A">17.68s</font>  p(95)=<font color="#06989A">53.95s</font>  
+        http_req_blocked...........: avg=<font color="#06989A">180.29ms</font> min=<font color="#06989A">1.14µs</font>   med=<font color="#06989A">7.18µs</font>  max=<font color="#06989A">2.92s</font>    p(90)=<font color="#06989A">19.95µs</font> p(95)=<font color="#06989A">2.13s</font>   
+        http_req_connecting........: avg=<font color="#06989A">49.71ms</font>  min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>      max=<font color="#06989A">1.33s</font>    p(90)=<font color="#06989A">0s</font>      p(95)=<font color="#06989A">305.41ms</font>
+        http_req_duration..........: avg=<font color="#06989A">6.2s</font>     min=<font color="#06989A">287.93ms</font> med=<font color="#06989A">6.05s</font>   max=<font color="#06989A">40.79s</font>   p(90)=<font color="#06989A">9.03s</font>   p(95)=<font color="#06989A">10.79s</font>  
+        http_req_receiving.........: avg=<font color="#06989A">19.57ms</font>  min=<font color="#06989A">24.97µs</font>  med=<font color="#06989A">1.12ms</font>  max=<font color="#06989A">708.66ms</font> p(90)=<font color="#06989A">12.26ms</font> p(95)=<font color="#06989A">242.72ms</font>
+        http_req_sending...........: avg=<font color="#06989A">47.18µs</font>  min=<font color="#06989A">6.36µs</font>   med=<font color="#06989A">43.12µs</font> max=<font color="#06989A">1.65ms</font>   p(90)=<font color="#06989A">72.72µs</font> p(95)=<font color="#06989A">100.76µs</font>
+        http_req_tls_handshaking...: avg=<font color="#06989A">126.77ms</font> min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>      max=<font color="#06989A">2.56s</font>    p(90)=<font color="#06989A">0s</font>      p(95)=<font color="#06989A">794.4ms</font> 
+        http_req_waiting...........: avg=<font color="#06989A">6.19s</font>    min=<font color="#06989A">285.49ms</font> med=<font color="#06989A">6.02s</font>   max=<font color="#06989A">40.78s</font>   p(90)=<font color="#06989A">9.02s</font>   p(95)=<font color="#06989A">10.79s</font>  
+        http_reqs..................: <font color="#06989A">4705</font>    <font color="#046567">52.217233/s</font>
+        iteration_duration.........: avg=<font color="#06989A">54.45s</font>   min=<font color="#06989A">27.3s</font>    med=<font color="#06989A">55.89s</font>  max=<font color="#06989A">1m28s</font>    p(90)=<font color="#06989A">1m6s</font>    p(95)=<font color="#06989A">1m11s</font>   
+        iterations.................: <font color="#06989A">457</font>     <font color="#046567">5.071897/s</font>
+        vus........................: <font color="#06989A">190</font>     <font color="#046567">min=190</font> <font color="#046567">max=400</font>
+        vus_max....................: <font color="#06989A">400</font>     <font color="#046567">min=400</font> <font color="#046567">max=400</font>
+    </pre>
