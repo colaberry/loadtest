@@ -1,0 +1,88 @@
+<pre>(base) <font color="#4E9A06"><b>mani@master-node</b></font>:<font color="#3465A4"><b>~/Documents/Refactored.AI/loadtest</b></font>$ k6 run --vus 300 --duration 120s refactored.js
+
+    <font color="#06989A">          /\      |‾‾|  /‾‾/  /‾/   </font>
+    <font color="#06989A">     /\  /  \     |  |_/  /  / /    </font>
+    <font color="#06989A">    /  \/    \    |      |  /  ‾‾\  </font>
+    <font color="#06989A">   /          \   |  |‾\  \ | (_) | </font>
+    <font color="#06989A">  / __________ \  |__|  \__\ \___/ .io</font>
+    
+      execution: <font color="#06989A">local</font>
+         script: <font color="#06989A">refactored.js</font>
+         output: <font color="#06989A">-</font>
+    
+      scenarios: <font color="#06989A">(100.00%) 1 executors, 300 max VUs, 2m30s max duration (incl. graceful stop):</font>
+               * default: 300 looping VUs for 2m0s (gracefulStop: 30s)
+    
+    <font color="#C4A000">WARN</font>[0125] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://refactored.ai/course/aws-deepracer/\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0125] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at AWSDeepracerHomeDone (file:///home/mani/Documents/Refactored.AI/loadtest/refactored.js:38:80(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/refactored.js:36:26(17)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/refactored.js:34:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/refactored.js:28:17(5)  <font color="#CC0000">executor</font>=constant-vus <font color="#CC0000">scenario</font>=default
+    
+    running (2m22.5s), 000/300 VUs, 1242 complete and 0 interrupted iterations
+    default <font color="#4E9A06">✓</font> [======================================] 300 VUs  2m0s
+    
+    
+        █ v1 Refactored load testing
+    
+          █ course aws deep racer Pre-Workshop -  Introduction to Machine learning 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ Introduction to Machine learning.. done</font>
+    
+          █ course aws deep racer Workshop-  Basics of Reinforcement Learning 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ Basics of Reinforcement Learning.. done</font>
+    
+          █ course aws deep racer Workshop-  AWS Deepracer Model Initilization 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ AWS Deepracer Model Initilization.. done</font>
+    
+          █ course aws deep racer post-workshop -  Reward Function 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ Reward Function.. done</font>
+    
+          █ heart-beat
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    
+          █ course aws deep racer - Home 
+    
+    <font color="#CC0000">        ✗ status is 200</font>
+    <font color="#CC0000">         ↳  99% — ✓ 1241 / ✗ 1</font>
+    <font color="#CC0000">        ✗ AWS Deepracer Home .. done</font>
+    <font color="#CC0000">         ↳  99% — ✓ 1241 / ✗ 1</font>
+    
+          █ course aws deep racer Pre-Workshop-  Create your AWS account 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ Create AWS account.. done</font>
+    
+          █ course aws deep racer Pre-Workshop -  Introduction to Autonomous Vehicle 
+    
+    <font color="#4E9A06">        ✓ status is 200</font>
+    <font color="#4E9A06">        ✓ Introduction to Autonomous Vehicle.. done</font>
+    
+        checks.....................: <font color="#06989A">99.98%</font> <font color="#046567">✓ 18616</font> <font color="#046567">✗ 2</font>    
+        data_received..............: <font color="#06989A">283 MB</font> <font color="#046567">2.0 MB/s</font>
+        data_sent..................: <font color="#06989A">2.5 MB</font> <font color="#046567">18 kB/s</font>
+        group_duration.............: avg=<font color="#06989A">6.92s</font>    min=<font color="#06989A">359.54ms</font> med=<font color="#06989A">2.91s</font>    max=<font color="#06989A">1m20s</font>    p(90)=<font color="#06989A">18.62s</font>  p(95)=<font color="#06989A">31.34s</font> 
+        http_req_blocked...........: avg=<font color="#06989A">109.79ms</font> min=<font color="#06989A">1.06µs</font>   med=<font color="#06989A">7.07µs</font>   max=<font color="#06989A">4.37s</font>    p(90)=<font color="#06989A">9.71µs</font>  p(95)=<font color="#06989A">14.21µs</font>
+        http_req_connecting........: avg=<font color="#06989A">15.48ms</font>  min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>       max=<font color="#06989A">1.57s</font>    p(90)=<font color="#06989A">0s</font>      p(95)=<font color="#06989A">0s</font>     
+        http_req_duration..........: avg=<font color="#06989A">3.78s</font>    min=<font color="#06989A">358.66ms</font> med=<font color="#06989A">2.52s</font>    max=<font color="#06989A">1m0s</font>     p(90)=<font color="#06989A">8.73s</font>   p(95)=<font color="#06989A">10.86s</font> 
+        http_req_receiving.........: avg=<font color="#06989A">985.86ms</font> min=<font color="#06989A">0s</font>       med=<font color="#06989A">482.08ms</font> max=<font color="#06989A">21.33s</font>   p(90)=<font color="#06989A">2.42s</font>   p(95)=<font color="#06989A">5.02s</font>  
+        http_req_sending...........: avg=<font color="#06989A">45.67µs</font>  min=<font color="#06989A">6.02µs</font>   med=<font color="#06989A">42.6µs</font>   max=<font color="#06989A">910.96µs</font> p(90)=<font color="#06989A">57.87µs</font> p(95)=<font color="#06989A">68.3µs</font> 
+        http_req_tls_handshaking...: avg=<font color="#06989A">57.85ms</font>  min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>       max=<font color="#06989A">2.81s</font>    p(90)=<font color="#06989A">0s</font>      p(95)=<font color="#06989A">0s</font>     
+        http_req_waiting...........: avg=<font color="#06989A">2.79s</font>    min=<font color="#06989A">269.81ms</font> med=<font color="#06989A">1.82s</font>    max=<font color="#06989A">1m0s</font>     p(90)=<font color="#06989A">6.63s</font>   p(95)=<font color="#06989A">8.6s</font>   
+        http_reqs..................: <font color="#06989A">9930</font>   <font color="#046567">69.695226/s</font>
+        iteration_duration.........: avg=<font color="#06989A">32.15s</font>   min=<font color="#06989A">8.9s</font>     med=<font color="#06989A">29.68s</font>   max=<font color="#06989A">1m21s</font>    p(90)=<font color="#06989A">49.74s</font>  p(95)=<font color="#06989A">56.37s</font> 
+        iterations.................: <font color="#06989A">1242</font>   <font color="#046567">8.717167/s</font>
+        vus........................: <font color="#06989A">2</font>      <font color="#046567">min=2</font>   <font color="#046567">max=300</font>
+        vus_max....................: <font color="#06989A">300</font>    <font color="#046567">min=300</font> <font color="#046567">max=300</font></pre>

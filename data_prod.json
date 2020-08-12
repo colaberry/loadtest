@@ -1,0 +1,14 @@
+{
+    "users": [
+      { "username": "loadtestuser1", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser2", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser3", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser4", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser5", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser6", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser7", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser8", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser9", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser10", "password": "hdqeXHjrzCGABf97" }
+   ]
+  }
