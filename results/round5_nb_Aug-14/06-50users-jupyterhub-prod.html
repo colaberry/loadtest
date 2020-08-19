@@ -1,0 +1,1069 @@
+<pre>(base) <font color="#4E9A06"><b>mani@master-node</b></font>:<font color="#3465A4"><b>~/Documents/Refactored.AI/loadtest</b></font>$ k6 run -u 50 -i 50 dsin100days_PROD.js 
+
+    <font color="#06989A">          /\      |‾‾|  /‾‾/  /‾/   </font>
+    <font color="#06989A">     /\  /  \     |  |_/  /  / /    </font>
+    <font color="#06989A">    /  \/    \    |      |  /  ‾‾\  </font>
+    <font color="#06989A">   /          \   |  |‾\  \ | (_) | </font>
+    <font color="#06989A">  / __________ \  |__|  \__\ \___/ .io</font>
+    
+      execution: <font color="#06989A">local</font>
+         script: <font color="#06989A">dsin100days_PROD.js</font>
+         output: <font color="#06989A">-</font>
+    
+      scenarios: <font color="#06989A">(100.00%) 1 executors, 50 max VUs, 10m30s max duration (incl. graceful stop):</font>
+               * default: 50 iterations shared among 50 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+    
+    <font color="#06989A">INFO</font>[0000] loadtestuser50                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser8                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser17                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser10                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser5                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser38                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser47                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser33                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser41                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser23                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser18                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser44                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser29                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser25                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser16                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser32                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser43                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser2                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser31                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser27                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser28                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser12                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser26                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser30                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser7                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser24                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser13                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser21                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser1                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser15                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser4                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser6                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser11                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser22                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser34                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser20                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser48                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser14                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser49                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser9                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser39                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser42                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser19                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser35                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser3                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser37                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser45                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser46                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser36                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser40                               
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/hub/spawn\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/user/loadtestuser1/oauth_callback?code=hbN17zufXqTWT4Cz2nsMURKUCKYXgX&amp;state=eyJ1dWlkIjogIjFmNjYzOGUyNzdhZTRjZWM4ZjZhMjA4NDgyNzdiOGE0IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjEvdHJlZT8ifQ\&quot;: context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/hub/spawn\&quot;: context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/hub/spawn\&quot;: context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/user/loadtestuser17/oauth_callback?code=6BKjTrO340SaxvbZUA8LqIxRvScqRd&amp;state=eyJ1dWlkIjogIjAzODhkOTgzZjdiMjQxY2U4ZDUxZWIxZDU2NmMzYjhlIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjE3L3RyZWU_In0\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/user/loadtestuser19/oauth_callback?code=Dk0mom3YEFaucUXyG4tW8BKNpTH3Dw&amp;state=eyJ1dWlkIjogImU5ZWE4ZWJiODIxYTRmMDk4M2QxNDcwNGVmNTU1MTdkIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjE5L3RyZWU_In0\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/hub/api/oauth2/authorize?client_id=jupyterhub-user-loadtestuser7&amp;redirect_uri=%2Fuser%2Floadtestuser7%2Foauth_callback&amp;response_type=code&amp;state=eyJ1dWlkIjogImQ3MjA2ZGNjZDA5MzRkNjg4NDY5MTYyMTNkNzg4MWNlIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjcvdHJlZT8ifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0130] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser35/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0130] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0130] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser22/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0130] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0130] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser36/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0130] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0130] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser33/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0130] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0131] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser26/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0131] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0132] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser23/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0132] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0135] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser37/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0135] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0138] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser43/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0138] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0138] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser29/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0138] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0139] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser40/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0139] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0140] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/api/oauth2/authorize?client_id=jupyterhub-user-loadtestuser14&amp;redirect_uri=%2Fuser%2Floadtestuser14%2Foauth_callback&amp;response_type=code&amp;state=eyJ1dWlkIjogIjc4NTg3OGFkMjMzZjQyYzA4ZTg5M2MyYTYwYjc4OTdhIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjE0L25vdGVib29rcy9kc2luMTAwZGF5cy9jb250ZW50LzAyLVB5dGhvbl9mb3JfRGF0YV9TY2llbnRpc3RzLzAzLURhdGFfU3RydWN0dXJlc19pbl9weXRob24vMDEtQmFzaWNfZGF0YV90eXBlc19hbmRfb3BlcmF0b3JzLmlweW5iIn0\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0140] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0140] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser25/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0140] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0142] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser48/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0142] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0144] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/api/oauth2/authorize?client_id=jupyterhub-user-loadtestuser6&amp;redirect_uri=%2Fuser%2Floadtestuser6%2Foauth_callback&amp;response_type=code&amp;state=eyJ1dWlkIjogIjk0NGEwNTI0YjVlNTRiZjM5MTUwYjAxM2YwNTk1ZGZiIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjYvbm90ZWJvb2tzL2RzaW4xMDBkYXlzL2NvbnRlbnQvMDItUHl0aG9uX2Zvcl9EYXRhX1NjaWVudGlzdHMvMDMtRGF0YV9TdHJ1Y3R1cmVzX2luX3B5dGhvbi8wMS1CYXNpY19kYXRhX3R5cGVzX2FuZF9vcGVyYXRvcnMuaXB5bmIiLCAiY29va2llX25hbWUiOiAianVweXRlcmh1Yi11c2VyLWxvYWR0ZXN0dXNlcjYtb2F1dGgtc3RhdGUtdE9xaVRiWXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0144] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0145] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser8/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0145] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0146] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser16/oauth_callback?code=GTQI95fkINF4eQKai8Jv0w1gq5ULFj&amp;state=eyJ1dWlkIjogIjYxYzhiMTA1OTNhYjQ0ZTQ5ZjlkZGY2YjA1NDE1NjE0IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjE2L25vdGVib29rcy9kc2luMTAwZGF5cy9jb250ZW50LzAyLVB5dGhvbl9mb3JfRGF0YV9TY2llbnRpc3RzLzAzLURhdGFfU3RydWN0dXJlc19pbl9weXRob24vMDEtQmFzaWNfZGF0YV90eXBlc19hbmRfb3BlcmF0b3JzLmlweW5iIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sb2FkdGVzdHVzZXIxNi1vYXV0aC1zdGF0ZS15SW5BSkxrbiJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0146] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0147] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser50/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0147] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0148] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser41/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0148] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0149] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser15/oauth_callback?code=6vLkzinrO2b9kxzyw0F0X9JuNDFcL0&amp;state=eyJ1dWlkIjogIjk5YzQzMWQ2NmFlZDQzMWY4M2YzMTQ3Yjc0Y2EwNzNiIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjE1L25vdGVib29rcy9kc2luMTAwZGF5cy9jb250ZW50LzAyLVB5dGhvbl9mb3JfRGF0YV9TY2llbnRpc3RzLzAzLURhdGFfU3RydWN0dXJlc19pbl9weXRob24vMDEtQmFzaWNfZGF0YV90eXBlc19hbmRfb3BlcmF0b3JzLmlweW5iIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sb2FkdGVzdHVzZXIxNS1vYXV0aC1zdGF0ZS1NZEZmSVl1VyJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0149] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0150] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser47/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0150] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0151] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser9/oauth_callback?code=S3miI9t1XBp2e9FnzcSnVnzDh9YQDL&amp;state=eyJ1dWlkIjogIjU4NjZhMDBjZTJiNjRkYzdiYzIwOTE1YTU5OTU5MjUyIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjkvbm90ZWJvb2tzL2RzaW4xMDBkYXlzL2NvbnRlbnQvMDItUHl0aG9uX2Zvcl9EYXRhX1NjaWVudGlzdHMvMDMtRGF0YV9TdHJ1Y3R1cmVzX2luX3B5dGhvbi8wMS1CYXNpY19kYXRhX3R5cGVzX2FuZF9vcGVyYXRvcnMuaXB5bmIiLCAiY29va2llX25hbWUiOiAianVweXRlcmh1Yi11c2VyLWxvYWR0ZXN0dXNlcjktb2F1dGgtc3RhdGUtS2dDSGpOVnMifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0151] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0152] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser42/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0152] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0153] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser27/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0153] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0154] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser44/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0154] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0155] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser5/oauth_callback?code=jWuCBrLkImrl8hq7pkc2TtMU3kC4wr&amp;state=eyJ1dWlkIjogImY3Njk1MDBlYjFmNzRhYjM5ZmNiMDhlNWMzYmExNDgyIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjUvbm90ZWJvb2tzL2RzaW4xMDBkYXlzL2NvbnRlbnQvMDItUHl0aG9uX2Zvcl9EYXRhX1NjaWVudGlzdHMvMDMtRGF0YV9TdHJ1Y3R1cmVzX2luX3B5dGhvbi8wMS1CYXNpY19kYXRhX3R5cGVzX2FuZF9vcGVyYXRvcnMuaXB5bmIiLCAiY29va2llX25hbWUiOiAianVweXRlcmh1Yi11c2VyLWxvYWR0ZXN0dXNlcjUtb2F1dGgtc3RhdGUtYkd5blFBeW8ifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0155] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0155] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser34/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0155] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0156] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser13/oauth_callback?code=92xzBUXRixBeQeEV04pl5qQI6Br5jZ&amp;state=eyJ1dWlkIjogIjE1OTVmZDkxMmNlZTQ4NzdhMTBmMzY2Y2FkNTI2ZGU3IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjEzL25vdGVib29rcy9kc2luMTAwZGF5cy9jb250ZW50LzAyLVB5dGhvbl9mb3JfRGF0YV9TY2llbnRpc3RzLzAzLURhdGFfU3RydWN0dXJlc19pbl9weXRob24vMDEtQmFzaWNfZGF0YV90eXBlc19hbmRfb3BlcmF0b3JzLmlweW5iIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sb2FkdGVzdHVzZXIxMy1vYXV0aC1zdGF0ZS13QVdVSU1veCJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0156] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0157] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser18/oauth_callback?code=OFrFfHeAUEwQPY9apkA1ZwTYBqRNig&amp;state=eyJ1dWlkIjogIjQ4MDI0NzM3Zjc2NzQ5YTdhODAxYWM1Yzc0OGRjZDdjIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjE4L25vdGVib29rcy9kc2luMTAwZGF5cy9jb250ZW50LzAyLVB5dGhvbl9mb3JfRGF0YV9TY2llbnRpc3RzLzAzLURhdGFfU3RydWN0dXJlc19pbl9weXRob24vMDEtQmFzaWNfZGF0YV90eXBlc19hbmRfb3BlcmF0b3JzLmlweW5iIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sb2FkdGVzdHVzZXIxOC1vYXV0aC1zdGF0ZS1pQ21JbmhwdSJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0157] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0157] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser12/oauth_callback?code=O508LPayloN9WOq8s3Zrm4MQ5B0VTr&amp;state=eyJ1dWlkIjogImI2ZjA1YmIxNzhmNDQ5MDU4ZjJiMDJkZGRhMDExYTQ2IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjEyL25vdGVib29rcy9kc2luMTAwZGF5cy9jb250ZW50LzAyLVB5dGhvbl9mb3JfRGF0YV9TY2llbnRpc3RzLzAzLURhdGFfU3RydWN0dXJlc19pbl9weXRob24vMDEtQmFzaWNfZGF0YV90eXBlc19hbmRfb3BlcmF0b3JzLmlweW5iIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sb2FkdGVzdHVzZXIxMi1vYXV0aC1zdGF0ZS1QcGFjbWRpRyJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0157] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0157] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser46/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0157] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0159] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser45/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0159] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0159] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser4/oauth_callback?code=rLD3bj4J4c3hnAuwB99oQmPM5RpxpF&amp;state=eyJ1dWlkIjogIjkzYWNhZTI2OTg0YTQwYzBiYzdmY2RkYjE2MzI3NWFlIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjQvbm90ZWJvb2tzL2RzaW4xMDBkYXlzL2NvbnRlbnQvMDItUHl0aG9uX2Zvcl9EYXRhX1NjaWVudGlzdHMvMDMtRGF0YV9TdHJ1Y3R1cmVzX2luX3B5dGhvbi8wMS1CYXNpY19kYXRhX3R5cGVzX2FuZF9vcGVyYXRvcnMuaXB5bmIiLCAiY29va2llX25hbWUiOiAianVweXRlcmh1Yi11c2VyLWxvYWR0ZXN0dXNlcjQtb2F1dGgtc3RhdGUtTG5EZ3BHaFQifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0159] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0160] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser24/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0160] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0163] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser32/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0163] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0163] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser31/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0163] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0164] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser21/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0164] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0166] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser30/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0166] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0167] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser39/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0167] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0174] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/api/oauth2/authorize?client_id=jupyterhub-user-loadtestuser10&amp;redirect_uri=%2Fuser%2Floadtestuser10%2Foauth_callback&amp;response_type=code&amp;state=eyJ1dWlkIjogImU1NGM2ZDM3MDhhMzQ4YjZhNDczOWFlMzlkZmNkOTYxIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjEwL25vdGVib29rcy9kc2luMTAwZGF5cy9jb250ZW50LzAyLVB5dGhvbl9mb3JfRGF0YV9TY2llbnRpc3RzLzAzLURhdGFfU3RydWN0dXJlc19pbl9weXRob24vMDEtQmFzaWNfZGF0YV90eXBlc19hbmRfb3BlcmF0b3JzLmlweW5iIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sb2FkdGVzdHVzZXIxMC1vYXV0aC1zdGF0ZS1PVENVRU91ciJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0174] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0177] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/api/oauth2/authorize?client_id=jupyterhub-user-loadtestuser3&amp;redirect_uri=%2Fuser%2Floadtestuser3%2Foauth_callback&amp;response_type=code&amp;state=eyJ1dWlkIjogIjc0NzE5NWRmMzE5ODRlZGVhZjlmNjg3ODMwODAxODc5IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjMvbm90ZWJvb2tzL2RzaW4xMDBkYXlzL2NvbnRlbnQvMDItUHl0aG9uX2Zvcl9EYXRhX1NjaWVudGlzdHMvMDMtRGF0YV9TdHJ1Y3R1cmVzX2luX3B5dGhvbi8wMS1CYXNpY19kYXRhX3R5cGVzX2FuZF9vcGVyYXRvcnMuaXB5bmIiLCAiY29va2llX25hbWUiOiAianVweXRlcmh1Yi11c2VyLWxvYWR0ZXN0dXNlcjMtb2F1dGgtc3RhdGUtcGRuWklnSUQifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0177] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0177] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/api/oauth2/authorize?client_id=jupyterhub-user-loadtestuser11&amp;redirect_uri=%2Fuser%2Floadtestuser11%2Foauth_callback&amp;response_type=code&amp;state=eyJ1dWlkIjogIjQ3ZWM3Mzc1ZmRkNTRlODE4ZjdiYTZiZTY4M2ViZjEzIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjExL25vdGVib29rcy9kc2luMTAwZGF5cy9jb250ZW50LzAyLVB5dGhvbl9mb3JfRGF0YV9TY2llbnRpc3RzLzAzLURhdGFfU3RydWN0dXJlc19pbl9weXRob24vMDEtQmFzaWNfZGF0YV90eXBlc19hbmRfb3BlcmF0b3JzLmlweW5iIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sb2FkdGVzdHVzZXIxMS1vYXV0aC1zdGF0ZS1oT21GcFBXQiJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0177] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0180] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/api/oauth2/authorize?client_id=jupyterhub-user-loadtestuser20&amp;redirect_uri=%2Fuser%2Floadtestuser20%2Foauth_callback&amp;response_type=code&amp;state=eyJ1dWlkIjogIjcwOTQ3MzA0OTVhMDRlY2VhMDU3MGM5YWQ4ZDljZWYxIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjIwL25vdGVib29rcy9kc2luMTAwZGF5cy9jb250ZW50LzAyLVB5dGhvbl9mb3JfRGF0YV9TY2llbnRpc3RzLzAzLURhdGFfU3RydWN0dXJlc19pbl9weXRob24vMDEtQmFzaWNfZGF0YV90eXBlc19hbmRfb3BlcmF0b3JzLmlweW5iIiwgImNvb2tpZV9uYW1lIjogImp1cHl0ZXJodWItdXNlci1sb2FkdGVzdHVzZXIyMC1vYXV0aC1zdGF0ZS1JSHdXV29GdCJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0180] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0180] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/api/oauth2/authorize?client_id=jupyterhub-user-loadtestuser2&amp;redirect_uri=%2Fuser%2Floadtestuser2%2Foauth_callback&amp;response_type=code&amp;state=eyJ1dWlkIjogIjM4NzAxZWEzNTJhNjRlODY5YjM1MWU1NGFiNTAyY2Q1IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjIvbm90ZWJvb2tzL2RzaW4xMDBkYXlzL2NvbnRlbnQvMDItUHl0aG9uX2Zvcl9EYXRhX1NjaWVudGlzdHMvMDMtRGF0YV9TdHJ1Y3R1cmVzX2luX3B5dGhvbi8wMS1CYXNpY19kYXRhX3R5cGVzX2FuZF9vcGVyYXRvcnMuaXB5bmIiLCAiY29va2llX25hbWUiOiAianVweXRlcmh1Yi11c2VyLWxvYWR0ZXN0dXNlcjItb2F1dGgtc3RhdGUtdktheVl5VlMifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0180] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    
+    running (02m59.1s), 00/50 VUs, 50 complete and 0 interrupted iterations
+    default <font color="#4E9A06">✓</font> [======================================] 50 VUs  02m59.1s/10m0s  50/50 shared iters
+    
+    
+        █ v1 Refactored Jupyter Hub load testing
+    
+          █ Jupyter hub heart-beat
+    
+    <font color="#CC0000">        ✗  Notebooks Availability...done </font>
+    <font color="#CC0000">         ↳  0% — ✓ 0 / ✗ 43</font>
+    
+          █ login 
+    
+    <font color="#CC0000">        ✗ Login successful..</font>
+    <font color="#CC0000">         ↳  0% — ✓ 0 / ✗ 50</font>
+    
+        checks.....................: <font color="#06989A">0.00%</font>  <font color="#046567">✓ 0</font>    <font color="#046567">✗ 93</font>  
+        data_received..............: <font color="#06989A">280 kB</font> <font color="#046567">1.6 kB/s</font>
+        data_sent..................: <font color="#06989A">106 kB</font> <font color="#046567">590 B/s</font>
+        group_duration.............: avg=<font color="#06989A">1m42s</font>    min=<font color="#06989A">1m0s</font>     med=<font color="#06989A">1m36s</font>    max=<font color="#06989A">2m59s</font>    p(90)=<font color="#06989A">2m36s</font>    p(95)=<font color="#06989A">2m43s</font>   
+        http_req_blocked...........: avg=<font color="#06989A">1.74s</font>    min=<font color="#06989A">167ns</font>    med=<font color="#06989A">1.18µs</font>   max=<font color="#06989A">18.87s</font>   p(90)=<font color="#06989A">7.84s</font>    p(95)=<font color="#06989A">7.86s</font>   
+        http_req_connecting........: avg=<font color="#06989A">98.01ms</font>  min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>       max=<font color="#06989A">558.53ms</font> p(90)=<font color="#06989A">473.48ms</font> p(95)=<font color="#06989A">489.97ms</font>
+        http_req_duration..........: avg=<font color="#06989A">30.86s</font>   min=<font color="#06989A">259.69ms</font> med=<font color="#06989A">30.09s</font>   max=<font color="#06989A">1m1s</font>     p(90)=<font color="#06989A">1m0s</font>     p(95)=<font color="#06989A">1m0s</font>    
+        http_req_receiving.........: avg=<font color="#06989A">139.48µs</font> min=<font color="#06989A">0s</font>       med=<font color="#06989A">173.26µs</font> max=<font color="#06989A">488.04µs</font> p(90)=<font color="#06989A">232.62µs</font> p(95)=<font color="#06989A">253.25µs</font>
+        http_req_sending...........: avg=<font color="#06989A">220.5µs</font>  min=<font color="#06989A">24.63µs</font>  med=<font color="#06989A">157.71µs</font> max=<font color="#06989A">1.05ms</font>   p(90)=<font color="#06989A">473.52µs</font> p(95)=<font color="#06989A">539.09µs</font>
+        http_req_tls_handshaking...: avg=<font color="#06989A">500.47ms</font> min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>       max=<font color="#06989A">13.21s</font>   p(90)=<font color="#06989A">2.3s</font>     p(95)=<font color="#06989A">2.38s</font>   
+        http_req_waiting...........: avg=<font color="#06989A">30.86s</font>   min=<font color="#06989A">259.33ms</font> med=<font color="#06989A">30.09s</font>   max=<font color="#06989A">1m1s</font>     p(90)=<font color="#06989A">1m0s</font>     p(95)=<font color="#06989A">1m0s</font>    
+        http_reqs..................: <font color="#06989A">225</font>    <font color="#046567">1.256193/s</font>
+        iteration_duration.........: avg=<font color="#06989A">2m26s</font>    min=<font color="#06989A">2m0s</font>     med=<font color="#06989A">2m28s</font>    max=<font color="#06989A">2m59s</font>    p(90)=<font color="#06989A">2m47s</font>    p(95)=<font color="#06989A">2m56s</font>   
+        iterations.................: <font color="#06989A">50</font>     <font color="#046567">0.279154/s</font>
+        vus........................: <font color="#06989A">2</font>      <font color="#046567">min=2</font>  <font color="#046567">max=50</font>
+        vus_max....................: <font color="#06989A">50</font>     <font color="#046567">min=50</font> <font color="#046567">max=50</font>
+    
+    (base) <font color="#4E9A06"><b>mani@master-node</b></font>:<font color="#3465A4"><b>~/Documents/Refactored.AI/loadtest</b></font>$ k6 run -u 50 -i 50 dsin100days_PROD.js 
+    
+    <font color="#06989A">          /\      |‾‾|  /‾‾/  /‾/   </font>
+    <font color="#06989A">     /\  /  \     |  |_/  /  / /    </font>
+    <font color="#06989A">    /  \/    \    |      |  /  ‾‾\  </font>
+    <font color="#06989A">   /          \   |  |‾\  \ | (_) | </font>
+    <font color="#06989A">  / __________ \  |__|  \__\ \___/ .io</font>
+    
+      execution: <font color="#06989A">local</font>
+         script: <font color="#06989A">dsin100days_PROD.js</font>
+         output: <font color="#06989A">-</font>
+    
+      scenarios: <font color="#06989A">(100.00%) 1 executors, 50 max VUs, 10m30s max duration (incl. graceful stop):</font>
+               * default: 50 iterations shared among 50 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+    
+    <font color="#06989A">INFO</font>[0000] loadtestuser50                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser2                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser43                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser35                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser34                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser9                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser40                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser22                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser4                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser12                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser10                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser6                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser7                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser5                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser32                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser41                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser8                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser26                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser24                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser20                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser1                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser45                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser47                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser28                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser49                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser13                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser3                                
+    <font color="#06989A">INFO</font>[0000] loadtestuser33                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser15                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser37                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser48                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser44                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser36                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser25                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser30                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser21                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser19                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser46                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser39                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser29                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser14                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser42                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser27                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser16                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser38                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser23                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser31                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser17                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser18                               
+    <font color="#06989A">INFO</font>[0000] loadtestuser11                               
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/hub/spawn-pending/loadtestuser37\&quot;: context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/hub/spawn-pending/loadtestuser24\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0120] Request Failed                                <font color="#C4A000">error</font>=&quot;Post \&quot;https://dsin100days.refactored.ai/hub/spawn-pending/loadtestuser28\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0120] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at LoginSuccessful (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:86(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:27:26(29)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:21:19(5)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0124] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser16/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0124] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0134] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser31/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0134] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#06989A">INFO</font>[0135] Notebook not synced. Syncing..               
+    <font color="#C4A000">WARN</font>[0136] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser39/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0136] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0145] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser26/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0145] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0146] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser7/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0146] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0146] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser38/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0146] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0147] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser48/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0147] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0147] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser49/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0147] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0148] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser21/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0148] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0149] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser2/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0149] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0150] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser25/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0150] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0151] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser14/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0151] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#06989A">INFO</font>[0151] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0151] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0152] Notebook not synced. Syncing..               
+    <font color="#C4A000">WARN</font>[0152] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser3/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0152] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0152] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser50/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0152] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#06989A">INFO</font>[0153] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0153] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0153] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0154] Notebook not synced. Syncing..               
+    <font color="#C4A000">WARN</font>[0154] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser44/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0154] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser45/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0154] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#CC0000">ERRO</font>[0154] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0154] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser32/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0154] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#06989A">INFO</font>[0155] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0155] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0155] Notebook not synced. Syncing..               
+    <font color="#C4A000">WARN</font>[0156] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser20/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0156] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#06989A">INFO</font>[0158] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0158] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0159] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0159] Notebook not synced. Syncing..               
+    <font color="#C4A000">WARN</font>[0160] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser33/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0160] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#06989A">INFO</font>[0160] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0161] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0162] Notebook not synced. Syncing..               
+    <font color="#C4A000">WARN</font>[0162] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser27/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0162] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at NotebooksAvailabilityDone (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:109(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:46:26(20)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#06989A">INFO</font>[0162] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0163] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0163] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0163] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0164] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0165] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0165] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0166] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0166] Notebook not synced. Syncing..               
+    <font color="#C4A000">WARN</font>[0211] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/hub/user/loadtestuser22/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcolaberry%2Fdsin100days&amp;branch=master&amp;subPath=content%2F02-Python_for_Data_Scientists%2F03-Data_Structures_in_python%2F01-Basic_data_types_and_operators.ipynb&amp;redirects=1\&quot;: context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0406] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser4/git-pull/api?repo=https%3A%2F%2Fgithub.com%2Fcolaberry%2Fdsin100days&amp;branch=master\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0406] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0418] Request Failed                                <font color="#C4A000">error</font>=&quot;context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0421] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser35/oauth_callback?code=xRfzBSn8BKPqb0F1RGHeH7aep4ElQ3&amp;state=eyJ1dWlkIjogImNjYzAxOTg2ODI1MTRlY2Q4ZjM3YmQ3NWFkNmJmMTc1IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjM1L2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0421] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser42/oauth_callback?code=4w7e8QSK9FWli7TSsl7CCxDP7kKrHv&amp;state=eyJ1dWlkIjogIjdlYmRiOTg4ZTc5NTQ2OTg5ODFlN2MxZjQwZTFlZjk4IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjQyL2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0421] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#CC0000">ERRO</font>[0421] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0422] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser1/oauth_callback?code=sceGDJsHpDBJQ9qvjfuljZ1uhimfEF&amp;state=eyJ1dWlkIjogIjNhZWMyNmIzZDA5YjQ3MmJhMTAwZWI2ZGZhMDU0NzkxIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjEvZ2l0LXB1bGwvYXBpP3JlcG89aHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGY29sYWJlcnJ5JTJGZHNpbjEwMGRheXMmYnJhbmNoPW1hc3RlciJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0422] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0422] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser19/oauth_callback?code=aaI6PkNRht9uuS6mPOMKNc9hjIFuPC&amp;state=eyJ1dWlkIjogIjJmYTgxZjgzNGFmNTRhNTJhMDYxNjJhMGI4Y2E1NGZmIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjE5L2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0422] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0424] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser41/oauth_callback?code=X8FsfcBRxIkZrFSn3GIhOs73Z1HvAe&amp;state=eyJ1dWlkIjogIjlhMzJmMTkyNzJkMzQ2MzViYzg4MmVjNmE4MzgzOGY1IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjQxL2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0424] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser43/oauth_callback?code=zGMAaZ2VZTqZ65R72GDrWLa7sYQoPK&amp;state=eyJ1dWlkIjogIjM2YzNiYjEwYjU5YzRhODJhNGRiYzRiNjNmYTdjNTlhIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjQzL2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0424] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#CC0000">ERRO</font>[0424] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0425] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser47/oauth_callback?code=7Kv65jQy0HXbglVkDjLVyyTirUFE0c&amp;state=eyJ1dWlkIjogIjhlZjhjNGU2OGFjNTQ4NjQ5Y2U1NjJkNGU1YjlmMmQ0IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjQ3L2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0425] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0425] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser34/oauth_callback?code=iQYyp6vdFMTGajwGMczUN69gRlhQcx&amp;state=eyJ1dWlkIjogIjNmYzYwYjNjMjMzYjRmYzM5OWMyOTE5ZjJmNjg5YWQyIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjM0L2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0425] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0426] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser40/oauth_callback?code=JqTbyBp76nUGR3b6lsK0PSG7KMSnU4&amp;state=eyJ1dWlkIjogImUyODM0ZTBkZjQ3NjRjMjQ5NTI3ZTZkMjQxOGUzMjRlIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjQwL2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0426] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0428] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser5/oauth_callback?code=BbCONmp0ThEt0KgmuBSd65mOkUhuP9&amp;state=eyJ1dWlkIjogIjRkMmUxNWUxNzExYjQxZjk5ZGM2ZGVmZWZlNjExYzg5IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjUvZ2l0LXB1bGwvYXBpP3JlcG89aHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGY29sYWJlcnJ5JTJGZHNpbjEwMGRheXMmYnJhbmNoPW1hc3RlciJ9\&quot;: context deadline exceeded&quot;
+    <font color="#C4A000">WARN</font>[0428] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser15/oauth_callback?code=NPfTzfImRSYvd4anXEoKU8nPSbTDFR&amp;state=eyJ1dWlkIjogIjRhNDc0OTA4NDVmYTRiNzlhZTBkYjc4NDI3Y2VmZjNlIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjE1L2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0428] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#CC0000">ERRO</font>[0428] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0428] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser6/oauth_callback?code=iR0qjCACukjNE4ty5NBgU7bnc0XmkZ&amp;state=eyJ1dWlkIjogIjM0NTE1YjE5MjU4MDQ5ZWM4NzI4ZmU5NTVmYTI5MjkzIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjYvZ2l0LXB1bGwvYXBpP3JlcG89aHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGY29sYWJlcnJ5JTJGZHNpbjEwMGRheXMmYnJhbmNoPW1hc3RlciJ9\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0428] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0429] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser18/oauth_callback?code=UJ8XyTgZOVjdq5IxrEjYkpW75xdYiQ&amp;state=eyJ1dWlkIjogImUzNjE0OWUwNGE2NzQ2NTY4YzZkMWU1ODAzMjdjMjZhIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjE4L2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0429] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0430] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser12/oauth_callback?code=HFDb9ojphMFCkwmVM8x0IIo2UVM1ux&amp;state=eyJ1dWlkIjogIjZiODBhMzA5MTViYzQ3ZjFhYWZmYjBhOTZjMzJhMDVlIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjEyL2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0430] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0432] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser30/oauth_callback?code=TuP1lkoYl1Ckrt5ZZJCm017HI82M8h&amp;state=eyJ1dWlkIjogImUyYWYxMTY5NTNmYjQ4OWE5YjZjZTRlZTU1YzUwN2QxIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjMwL2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0432] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0435] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser29/oauth_callback?code=pAkovVcZA8cUq7yxwqfNIgPrH81Cr9&amp;state=eyJ1dWlkIjogImNkNTk0MGY1MjdmZTQ2NWZiNTdhNmViYzUxYWFhYTRjIiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjI5L2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0435] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    <font color="#C4A000">WARN</font>[0451] Request Failed                                <font color="#C4A000">error</font>=&quot;Get \&quot;https://dsin100days.refactored.ai/user/loadtestuser22/oauth_callback?code=6c6UuJBkc2vqWeURErIn3tIHMhIA1D&amp;state=eyJ1dWlkIjogImIzZDMxZDRhMDE4OTQwZmU5ZDUyYjdlOWY2MTU3Yzc2IiwgIm5leHRfdXJsIjogIi91c2VyL2xvYWR0ZXN0dXNlcjIyL2dpdC1wdWxsL2FwaT9yZXBvPWh0dHBzJTNBJTJGJTJGZ2l0aHViLmNvbSUyRmNvbGFiZXJyeSUyRmRzaW4xMDBkYXlzJmJyYW5jaD1tYXN0ZXIifQ\&quot;: context deadline exceeded&quot;
+    <font color="#CC0000">ERRO</font>[0451] TypeError: Cannot read property &apos;includes&apos; of undefined
+    running at heartBeatUp (file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:82(6))
+    default at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:54:29(78)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:44:19(12)
+        at native
+        at file:///home/mani/Documents/Refactored.AI/loadtest/dsin100days_PROD.js:18:17(50)  <font color="#CC0000">executor</font>=shared-iterations <font color="#CC0000">scenario</font>=default
+    
+    running (07m53.4s), 00/50 VUs, 50 complete and 0 interrupted iterations
+    default <font color="#4E9A06">✓</font> [======================================] 50 VUs  07m53.4s/10m0s  50/50 shared iters
+    
+    
+        █ v1 Refactored Jupyter Hub load testing
+    
+          █ login 
+    
+    <font color="#CC0000">        ✗ Login successful..</font>
+    <font color="#CC0000">         ↳  0% — ✓ 0 / ✗ 50</font>
+    
+          █ Jupyter hub heart-beat
+    
+    <font color="#CC0000">        ✗  Notebooks Availability...done </font>
+    <font color="#CC0000">         ↳  0% — ✓ 0 / ✗ 47</font>
+    <font color="#CC0000">        ✗ heart-beat up..</font>
+    <font color="#CC0000">         ↳  18% — ✓ 5 / ✗ 22</font>
+    
+          █ get 01-Basic_data_types notebook
+    
+    <font color="#CC0000">        ✗ Notebook loaded</font>
+    <font color="#CC0000">         ↳  55% — ✓ 5 / ✗ 4</font>
+    <font color="#CC0000">        ✗ 01-Basic_data_types.. done</font>
+    <font color="#CC0000">         ↳  55% — ✓ 5 / ✗ 4</font>
+    
+          █ get 02-Lists_and_Nested_Lists notebook
+    
+    <font color="#CC0000">        ✗ Notebook loaded</font>
+    <font color="#CC0000">         ↳  55% — ✓ 5 / ✗ 4</font>
+    <font color="#CC0000">        ✗ 02-Lists_and_Nested_Lists.. done</font>
+    <font color="#CC0000">         ↳  55% — ✓ 5 / ✗ 4</font>
+    
+          █ get dealing-with-strings-and-dates notebook
+    
+    <font color="#CC0000">        ✗ Notebook loaded</font>
+    <font color="#CC0000">         ↳  55% — ✓ 5 / ✗ 4</font>
+    <font color="#CC0000">        ✗ dealing-with-strings-and-dates.. done</font>
+    <font color="#CC0000">         ↳  55% — ✓ 5 / ✗ 4</font>
+    
+        checks.....................: <font color="#06989A">19.66%</font> <font color="#046567">✓ 35</font>   <font color="#046567">✗ 143</font> 
+        data_received..............: <font color="#06989A">1.3 MB</font> <font color="#046567">2.7 kB/s</font>
+        data_sent..................: <font color="#06989A">160 kB</font> <font color="#046567">338 B/s</font>
+        group_duration.............: avg=<font color="#06989A">2m50s</font>    min=<font color="#06989A">326.89ms</font> med=<font color="#06989A">1m52s</font>    max=<font color="#06989A">7m52s</font>  p(90)=<font color="#06989A">7m3s</font>     p(95)=<font color="#06989A">7m7s</font>    
+        http_req_blocked...........: avg=<font color="#06989A">508.92ms</font> min=<font color="#06989A">170ns</font>    med=<font color="#06989A">1.15µs</font>   max=<font color="#06989A">6s</font>     p(90)=<font color="#06989A">2.06s</font>    p(95)=<font color="#06989A">4.63s</font>   
+        http_req_connecting........: avg=<font color="#06989A">75.38ms</font>  min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>       max=<font color="#06989A">2.1s</font>   p(90)=<font color="#06989A">433.76ms</font> p(95)=<font color="#06989A">533.33ms</font>
+        http_req_duration..........: avg=<font color="#06989A">24.44s</font>   min=<font color="#06989A">229.54ms</font> med=<font color="#06989A">21.71s</font>   max=<font color="#06989A">1m12s</font>  p(90)=<font color="#06989A">56.49s</font>   p(95)=<font color="#06989A">1m0s</font>    
+        http_req_receiving.........: avg=<font color="#06989A">326ms</font>    min=<font color="#06989A">0s</font>       med=<font color="#06989A">186.68µs</font> max=<font color="#06989A">23.03s</font> p(90)=<font color="#06989A">256.84ms</font> p(95)=<font color="#06989A">861.06ms</font>
+        http_req_sending...........: avg=<font color="#06989A">40.01ms</font>  min=<font color="#06989A">25.58µs</font>  med=<font color="#06989A">154.8µs</font>  max=<font color="#06989A">4.62s</font>  p(90)=<font color="#06989A">477.4µs</font>  p(95)=<font color="#06989A">565.83µs</font>
+        http_req_tls_handshaking...: avg=<font color="#06989A">389.31ms</font> min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>       max=<font color="#06989A">5.33s</font>  p(90)=<font color="#06989A">1.53s</font>    p(95)=<font color="#06989A">4.02s</font>   
+        http_req_waiting...........: avg=<font color="#06989A">24.07s</font>   min=<font color="#06989A">229.35ms</font> med=<font color="#06989A">21.2s</font>    max=<font color="#06989A">1m12s</font>  p(90)=<font color="#06989A">56.49s</font>   p(95)=<font color="#06989A">1m0s</font>    
+        http_reqs..................: <font color="#06989A">383</font>    <font color="#046567">0.809058/s</font>
+        iteration_duration.........: avg=<font color="#06989A">4m57s</font>    min=<font color="#06989A">2m0s</font>     med=<font color="#06989A">6m43s</font>    max=<font color="#06989A">7m53s</font>  p(90)=<font color="#06989A">7m12s</font>    p(95)=<font color="#06989A">7m38s</font>   
+        iterations.................: <font color="#06989A">50</font>     <font color="#046567">0.105621/s</font>
+        vus........................: <font color="#06989A">1</font>      <font color="#046567">min=1</font>  <font color="#046567">max=50</font>
+        vus_max....................: <font color="#06989A">50</font>     <font color="#046567">min=50</font> <font color="#046567">max=50</font>
+    </pre>

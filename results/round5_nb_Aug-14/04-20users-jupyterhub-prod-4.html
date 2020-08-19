@@ -1,0 +1,97 @@
+<pre>(base) <font color="#4E9A06"><b>mani@master-node</b></font>:<font color="#3465A4"><b>~/Documents/Refactored.AI/loadtest</b></font>$ k6 run -u 20 -i 20 dsin100days_PROD.js 
+
+    <font color="#06989A">          /\      |‾‾|  /‾‾/  /‾/   </font>
+    <font color="#06989A">     /\  /  \     |  |_/  /  / /    </font>
+    <font color="#06989A">    /  \/    \    |      |  /  ‾‾\  </font>
+    <font color="#06989A">   /          \   |  |‾\  \ | (_) | </font>
+    <font color="#06989A">  / __________ \  |__|  \__\ \___/ .io</font>
+    
+      execution: <font color="#06989A">local</font>
+         script: <font color="#06989A">dsin100days_PROD.js</font>
+         output: <font color="#06989A">-</font>
+    
+      scenarios: <font color="#06989A">(100.00%) 1 executors, 20 max VUs, 10m30s max duration (incl. graceful stop):</font>
+               * default: 20 iterations shared among 20 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+    
+    <font color="#06989A">INFO</font>[0001] loadtestuser19                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser13                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser10                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser5                                
+    <font color="#06989A">INFO</font>[0001] loadtestuser2                                
+    <font color="#06989A">INFO</font>[0001] loadtestuser4                                
+    <font color="#06989A">INFO</font>[0001] loadtestuser14                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser3                                
+    <font color="#06989A">INFO</font>[0001] loadtestuser8                                
+    <font color="#06989A">INFO</font>[0001] loadtestuser17                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser7                                
+    <font color="#06989A">INFO</font>[0001] loadtestuser12                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser1                                
+    <font color="#06989A">INFO</font>[0001] loadtestuser15                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser6                                
+    <font color="#06989A">INFO</font>[0001] loadtestuser20                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser11                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser18                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser16                               
+    <font color="#06989A">INFO</font>[0001] loadtestuser9                                
+    <font color="#06989A">INFO</font>[0083] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0088] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0088] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0091] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0099] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0101] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0104] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0104] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0105] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0105] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0105] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0112] Notebook not synced. Syncing..               
+    <font color="#06989A">INFO</font>[0114] Notebook not synced. Syncing..               
+    
+    running (06m00.3s), 00/20 VUs, 20 complete and 0 interrupted iterations
+    default <font color="#4E9A06">✓</font> [======================================] 20 VUs  06m00.2s/10m0s  20/20 shared iters
+    
+    
+        █ v1 Refactored Jupyter Hub load testing
+    
+          █ get dealing-with-strings-and-dates notebook
+    
+    <font color="#4E9A06">        ✓ Notebook loaded</font>
+    <font color="#4E9A06">        ✓ dealing-with-strings-and-dates.. done</font>
+    
+          █ login 
+    
+    <font color="#4E9A06">        ✓ login status is 200</font>
+    
+          █ Jupyter hub heart-beat
+    
+    <font color="#CC0000">        ✗  Notebooks Availability...done </font>
+    <font color="#CC0000">         ↳  35% — ✓ 7 / ✗ 13</font>
+    <font color="#4E9A06">        ✓ heart-beat up..</font>
+    
+          █ get 01-Basic_data_types notebook
+    
+    <font color="#4E9A06">        ✓ Notebook loaded</font>
+    <font color="#4E9A06">        ✓ 01-Basic_data_types.. done</font>
+    
+          █ get 02-Lists_and_Nested_Lists notebook
+    
+    <font color="#4E9A06">        ✓ Notebook loaded</font>
+    <font color="#4E9A06">        ✓ 02-Lists_and_Nested_Lists.. done</font>
+    
+        checks.....................: <font color="#06989A">92.48%</font> <font color="#046567">✓ 160</font>  <font color="#046567">✗ 13</font>  
+        data_received..............: <font color="#06989A">2.6 MB</font> <font color="#046567">7.4 kB/s</font>
+        data_sent..................: <font color="#06989A">125 kB</font> <font color="#046567">345 B/s</font>
+        group_duration.............: avg=<font color="#06989A">1m26s</font>    min=<font color="#06989A">416.67ms</font> med=<font color="#06989A">6.1s</font>     max=<font color="#06989A">5m59s</font>    p(90)=<font color="#06989A">4m44s</font>    p(95)=<font color="#06989A">5m50s</font>   
+        http_req_blocked...........: avg=<font color="#06989A">102.74ms</font> min=<font color="#06989A">247ns</font>    med=<font color="#06989A">1.03µs</font>   max=<font color="#06989A">1.03s</font>    p(90)=<font color="#06989A">771.4ms</font>  p(95)=<font color="#06989A">875.46ms</font>
+        http_req_connecting........: avg=<font color="#06989A">19.09ms</font>  min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>       max=<font color="#06989A">269.95ms</font> p(90)=<font color="#06989A">0s</font>       p(95)=<font color="#06989A">258.58ms</font>
+        http_req_duration..........: avg=<font color="#06989A">8.18s</font>    min=<font color="#06989A">259.28ms</font> med=<font color="#06989A">3.77s</font>    max=<font color="#06989A">47.44s</font>   p(90)=<font color="#06989A">23.54s</font>   p(95)=<font color="#06989A">41.43s</font>  
+        http_req_receiving.........: avg=<font color="#06989A">674.07ms</font> min=<font color="#06989A">45.59µs</font>  med=<font color="#06989A">250.19µs</font> max=<font color="#06989A">22.63s</font>   p(90)=<font color="#06989A">272.38ms</font> p(95)=<font color="#06989A">316.95ms</font>
+        http_req_sending...........: avg=<font color="#06989A">39.38ms</font>  min=<font color="#06989A">26.64µs</font>  med=<font color="#06989A">145.59µs</font> max=<font color="#06989A">1.04s</font>    p(90)=<font color="#06989A">342.92µs</font> p(95)=<font color="#06989A">758.85µs</font>
+        http_req_tls_handshaking...: avg=<font color="#06989A">43.25ms</font>  min=<font color="#06989A">0s</font>       med=<font color="#06989A">0s</font>       max=<font color="#06989A">593.08ms</font> p(90)=<font color="#06989A">0s</font>       p(95)=<font color="#06989A">584.84ms</font>
+        http_req_waiting...........: avg=<font color="#06989A">7.46s</font>    min=<font color="#06989A">258.93ms</font> med=<font color="#06989A">1.8s</font>     max=<font color="#06989A">47.44s</font>   p(90)=<font color="#06989A">23.41s</font>   p(95)=<font color="#06989A">41.43s</font>  
+        http_reqs..................: <font color="#06989A">272</font>    <font color="#046567">0.754992/s</font>
+        iteration_duration.........: avg=<font color="#06989A">4m20s</font>    min=<font color="#06989A">1m35s</font>    med=<font color="#06989A">5m12s</font>    max=<font color="#06989A">6m0s</font>     p(90)=<font color="#06989A">5m57s</font>    p(95)=<font color="#06989A">5m59s</font>   
+        iterations.................: <font color="#06989A">20</font>     <font color="#046567">0.055514/s</font>
+        vus........................: <font color="#06989A">1</font>      <font color="#046567">min=1</font>  <font color="#046567">max=20</font>
+        vus_max....................: <font color="#06989A">20</font>     <font color="#046567">min=20</font> <font color="#046567">max=20</font>
+    </pre>
