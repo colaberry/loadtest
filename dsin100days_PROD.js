@@ -5,7 +5,7 @@ const data = JSON.parse(open("./data_prod.json"));
 
 export default function() {
 
-  let uniqueNumber = __VU * 1 + __ITER -1 ;
+  let uniqueNumber = __VU * 1 + __ITER -1 + 300 ;
   let user = data.users[uniqueNumber];
   console.log(data.users[uniqueNumber].username);
   let server_stopped = false;
@@ -31,7 +31,7 @@ export default function() {
         server_starting = true;
         sleep(60);
         let res2 = http.get("https://dsin100days.refactored.ai/user/" + user.username + "/notebooks/dsin100days/content/02-Python_for_Data_Scientists/03-Data_Structures_in_python/01-Basic_data_types_and_operators.ipynb", params);
-        check(res2, { " Server started...done ": (r) => r.body.includes('data-notebook-name="01-Basic_data_types_and_operators.ipynb"') });
+        check(res2, { " Server started...done ": (r) => r.body.includes('') });
  
         server_starting = false;
       }
