@@ -1,0 +1,24 @@
+{
+    "users": [
+      { "username": "loadtestuser1", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser2", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser8", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser9", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser10", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser3", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser4", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser5", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser6", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser7", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser11", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser12", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser13", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser14", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser15", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser16", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser17", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser18", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser19", "password": "hdqeXHjrzCGABf97" },
+      { "username": "loadtestuser20", "password": "hdqeXHjrzCGABf97" }
+   ]
+  }
