@@ -25,50 +25,51 @@ let url_vital5 = "https://refactored.ai/learn/CRCST-Sterilization-processing-cou
 
 export default function() {
   group('v1 Refactored load testing', function() {
-    group('heart-beat', function() {
-      let res = http.get("https://refactored.ai");
-      check(res, { "status is 200": (r) => r.status === 200 });
-    });
+    // group('heart-beat', function() {
+    //   let res = http.get("https://refactored.ai");
+    //   check(res, { "status is 200": (r) => r.status === 200 });
+    // });
 
-    group('course Vital Reskilling - Home ', function() {
-      let res = http.get(url_vital1);
-      check(res, {
-        "status is 200": (r) => r.status === 200,
-        "Vital Reskilling Home .. done": (r) => r.body.includes('CRCST Sterilization processing course')
-      });
-    })
+    // group('course Vital Reskilling - Home ', function() {
+    //   let res = http.get(url_vital1);
+    //   check(res, {
+    //     "status is 200": (r) => r.status === 200,
+    //     "Vital Reskilling Home .. done": (r) => r.body.includes('CRCST Sterilization processing course')
+    //   });
+    // })
 
     group('course Vital Reskilling - Chapter1 ', function() {
       let res = http.get(url_vital2);
       check(res, {
-        "status is 200": (r) => r.status === 200,
-        "Vital Reskilling Chapter1 .. done": (r) => r.body.includes('<h1 class="main_heading">Chapter 1 - Introduction to Central Service</h1>')
+        "status is 200": (r) => r.status === 200
+        //,
+        //"Vital Reskilling Chapter1 .. done": (r) => r.body.includes('<h1 class="main_heading">Chapter 1 - Introduction to Central Service</h1>')
       });
     })
 
-    group('course Vital Reskilling - Chapter2 ', function() {
-      let res = http.get(url_vital3);
-      check(res, {
-        "status is 200": (r) => r.status === 200,
-        "Vital Reskilling Chapter2 .. done": (r) => r.body.includes('<h1 class="main_heading">Chapter 2 - Medical Terminology for Central Service Technicians</h1>')
-      });
-    })
+    // group('course Vital Reskilling - Chapter2 ', function() {
+    //   let res = http.get(url_vital3);
+    //   check(res, {
+    //     "status is 200": (r) => r.status === 200,
+    //     "Vital Reskilling Chapter2 .. done": (r) => r.body.includes('<h1 class="main_heading">Chapter 2 - Medical Terminology for Central Service Technicians</h1>')
+    //   });
+    // })
 
-    group('course Vital Reskilling - Chapter3 ', function() {
-      let res = http.get(url_vital4);
-      check(res, {
-        "status is 200": (r) => r.status === 200,
-        "Vital Reskilling Chapter3 .. done": (r) => r.body.includes('<h1 class="main_heading">Chapter 3 - Anatomy for Central Service Technicians</h1>')
-      });
-    })
+    // group('course Vital Reskilling - Chapter3 ', function() {
+    //   let res = http.get(url_vital4);
+    //   check(res, {
+    //     "status is 200": (r) => r.status === 200,
+    //     "Vital Reskilling Chapter3 .. done": (r) => r.body.includes('<h1 class="main_heading">Chapter 3 - Anatomy for Central Service Technicians</h1>')
+    //   });
+    // })
 
-    group('course Vital Reskilling - Chapter4 ', function() {
-      let res = http.get(url_vital5);
-      check(res, {
-        "status is 200": (r) => r.status === 200,
-        "Vital Reskilling Chapter4 .. done": (r) => r.body.includes('<h1 class="main_heading">Chapter 4 - Microbiology for Central Service Technicians</h1>')
-      });
-    })
+    // group('course Vital Reskilling - Chapter4 ', function() {
+    //   let res = http.get(url_vital5);
+    //   check(res, {
+    //     "status is 200": (r) => r.status === 200,
+    //     "Vital Reskilling Chapter4 .. done": (r) => r.body.includes('<h1 class="main_heading">Chapter 4 - Microbiology for Central Service Technicians</h1>')
+    //   });
+    // })
 
     // group('course aws deep racer Pre-Workshop-  Create your AWS account ', function() {
     //   let res = http.get(url_create_aws);
